@@ -1,0 +1,47 @@
+.navbar {
+	@apply text-white bg-black text-[1.25rem];
+	a {
+		@apply px-4 py-2;
+	}
+}
+
+* {
+	@apply font-sans m-0 p-0 box-border;
+}
+
+.card-container {
+	@apply border px-4 py-2 bg-white flex flex-col justify-between;
+}
+
+.card-wrapper {
+	@apply grid md:grid-cols-4 bg-black h-full sm:grid-cols-2 gap-4 md:gap-6;
+}
+
+.form-container {
+	@apply border w-[600px] h-[400px] flex justify-center items-center bg-white;
+
+	label {
+		@apply text-[1.25rem];
+	}
+	input {
+		@apply text-black outline-none border-black border px-4 py-2 w-full;
+	}
+}
+
+button,
+.view-details {
+	@apply text-white bg-black px-2 py-1.5 mt-2;
+}
+
+h3 {
+	@apply text-[1.25rem];
+}
+
+.backtohome,
+.addtoform {
+	@apply text-black bg-white p-2;
+}
+
+.backtohome {
+	@apply mr-3;
+}
